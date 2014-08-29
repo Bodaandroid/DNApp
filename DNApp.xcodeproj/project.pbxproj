@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4354DA0819AE15D90062F2A6 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4354DA0719AE15D90062F2A6 /* HomeViewController.m */; };
 		437FE31F19A602B4007F9726 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 437FE31E19A602B4007F9726 /* Foundation.framework */; };
 		437FE32119A602B4007F9726 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 437FE32019A602B4007F9726 /* CoreGraphics.framework */; };
 		437FE32319A602B4007F9726 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 437FE32219A602B4007F9726 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4354DA0619AE15D90062F2A6 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		4354DA0719AE15D90062F2A6 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		437FE31B19A602B4007F9726 /* DNApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DNApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		437FE31E19A602B4007F9726 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		437FE32019A602B4007F9726 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +120,8 @@
 				437FE33019A602B4007F9726 /* Main.storyboard */,
 				437FE33319A602B4007F9726 /* ViewController.h */,
 				437FE33419A602B4007F9726 /* ViewController.m */,
+				4354DA0619AE15D90062F2A6 /* HomeViewController.h */,
+				4354DA0719AE15D90062F2A6 /* HomeViewController.m */,
 				437FE33619A602B4007F9726 /* Images.xcassets */,
 				437FE32519A602B4007F9726 /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 				437FE33519A602B4007F9726 /* ViewController.m in Sources */,
 				437FE32F19A602B4007F9726 /* AppDelegate.m in Sources */,
 				437FE32B19A602B4007F9726 /* main.m in Sources */,
+				4354DA0819AE15D90062F2A6 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,7 +385,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DNApp/DNApp-Prefix.pch";
 				INFOPLIST_FILE = "DNApp/DNApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -392,7 +400,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DNApp/DNApp-Prefix.pch";
 				INFOPLIST_FILE = "DNApp/DNApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -456,6 +466,7 @@
 				437FE34F19A602B4007F9726 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		437FE35019A602B4007F9726 /* Build configuration list for PBXNativeTarget "DNAppTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +475,7 @@
 				437FE35219A602B4007F9726 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
